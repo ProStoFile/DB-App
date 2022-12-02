@@ -7,6 +7,6 @@ function loadHTMLTable(data) {
     let tableHTML = '';
 
     if (data.length === 0) {
-        table.innerHTML = "<tr><td class='no-data' colspan='5'></td></tr>";
+        table.innerHTML = "<tr><td class='no-data' colspan='5'>No Data</td></tr>";
     }
 }
